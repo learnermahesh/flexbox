@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 100px;
+    flex-basis: 100px;
+}
+
+.one {
+    background-color: red;
+    flex-basis: 100px;
+}
+
+.two {
+    background-color: green;
+    flex-basis: 200px;
+}
+
+.three {
+    background-color: blue;
+    flex-basis: 300px;
+}
+
+.four {
+    background-color: yellow;
+    flex-basis: 400px;
+}
