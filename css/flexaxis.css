@@ -1,0 +1,35 @@
+.wrapper-column {
+    display: flex;
+    background-color: white;
+    flex-flow: column;
+}
+
+.wrapper-row{
+    display: flex;
+    background-color: white;
+    flex-flow: row;
+}
+
+
+
+.box {
+    min-height: 100px;
+    flex: 1 1 100px;
+    
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: green;
+}
+
+.three {
+    background-color: blue;
+}
+
+.four {
+    background-color: yellow;
+}

@@ -4,7 +4,7 @@ nav ul {
     background-color: #555;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    flex: 1 1 0;
 }
 
 nav ul a {
@@ -13,7 +13,22 @@ nav ul a {
     text-decoration: none;
 }
 
-nav li {
+nav ul li {
     flex: 1 1 0;
     text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.social li {
+    flex: 1 1 0;
+    text-align: right;
 }
